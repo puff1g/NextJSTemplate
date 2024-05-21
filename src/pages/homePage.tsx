@@ -1,6 +1,6 @@
 "use client";
 import Link from 'next/link';
-import { Button, Box } from '@mui/material';
+import { Box } from '@mui/material';
 
 export const HomePage = () => {
   return (
@@ -13,10 +13,8 @@ export const HomePage = () => {
         height: '100vh',
       }}
     >
-      <Link href="/chat" passHref>
-        <Button variant="contained" color="primary" sx={{ mb: 2 }}>
-          Go to ChatBot AI
-        </Button>
+      <h1>Welcome to the Template Project!</h1>
+      <Link href="/about">
       </Link>
     </Box>
   );
