@@ -6,7 +6,7 @@ This is a template for starting new projects with Next.js. It includes some comm
 
 - **Next.js:** Utilizes Next.js for server-side rendering, routing, and more.
 - **Material UI:** Integrated Material UI for rapid UI development.
-- **Axios:** For the best Api call management & interceptors and more.
+- **Axios:** For the best API call management, interceptors, and more.
 - **ESLint:** Linting tool to maintain code quality and consistency.
 - **Prettier:** Code formatter to ensure consistent code styling.
 - **Environment Variables:** Configured to use environment variables for better configuration management.
