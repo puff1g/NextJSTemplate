@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Project Template
+
+This is a template for starting new projects with Next.js. It includes some common configurations, folder structure, and dependencies to help kickstart your development process.
+
+## Features
+
+- **Next.js:** Utilizes Next.js for server-side rendering, routing, and more.
+- **Material UI:** Integrated Material UI for rapid UI development.
+- **Axios:** For the best Api call management & interceptors and more.
+- **ESLint:** Linting tool to maintain code quality and consistency.
+- **Prettier:** Code formatter to ensure consistent code styling.
+- **Environment Variables:** Configured to use environment variables for better configuration management.
+- **Folder Structure:** Organized folder structure for better code organization.
 
 ## Getting Started
 
-First, run the development server:
+To use this template, you can either clone it or generate a new project using it as a template. Make sure you have Node.js installed on your machine.
 
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/nextjs-project-template.git
+cd nextjs-project-template
+```
+Install Dependencies
+```bash
+npm install
+# or
+yarn install
+Development
+```
+
+Start the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Open http://localhost:3000 in your browser to see the project.
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Building for Production
+To build the project for production, run:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+# or
+yarn build
+```
+To run tests, use:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+npm run test
+# or
+yarn test
+```
+Linting & Formatting
+Linting and formatting can be done with:
 
-## Learn More
+```bash
+npm run lint
+# or
+yarn lint
+Customize Configuration
+You can customize the configuration by editing files in the config/ directory. Environment variables can be set in .env.local file.
+```
 
-To learn more about Next.js, take a look at the following resources:
+Folder Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+NextJSTemplate/
+├── components/
+│   └── ...
+├── pages/
+│   └── ...
+├── public/
+│   └── ...
+├── styles/
+│   └── ...
+├── .gitignore
+├── .eslintrc.json
+├── .prettierrc.json
+├── package.json
+├── README.md
+└── ...
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+License
+This project is licensed under the MIT License.
 
-## Deploy on Vercel
+Feel free to customize it further based on your specific project needs!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
